@@ -1,8 +1,10 @@
 import { connect } from 'react-redux';
 import MovieDetail from './MovieDetail';
 
-function mapStoreToProps(store) {
-  return {};
+function MapStoreToProps(store) {
+  return {
+
+  };
 }
 
-export default connect(mapStoreToProps)(MovieDetail);
+export default connect(MapStoreToProps)(MovieDetail);
